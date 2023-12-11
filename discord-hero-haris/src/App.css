@@ -1,0 +1,18 @@
+#root,
+body {
+  background-color: #404fed;
+  width: 100%;
+}
+
+img {
+  height: 50px;
+}
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.Navbar {
+  padding: 40px 80px 40px 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
