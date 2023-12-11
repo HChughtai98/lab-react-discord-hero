@@ -2,6 +2,7 @@
 body {
   background-color: #404fed;
   width: 100%;
+  margin: 0;
 }
 
 img {
@@ -10,9 +11,66 @@ img {
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
+h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding-left: 95px;
+  font-size: 90px;
+}
+p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
 .Navbar {
-  padding: 40px 80px 40px 80px;
+  padding: 40px 80px 60px 80px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.mainText {
+  width: 900px;
+  line-height: 80px;
+}
+
+.subText {
+  width: 950px;
+}
+.subText p {
+  font-size: 30px;
+  padding-left: 95px;
+  margin-bottom: 100px;
+}
+
+button {
+  display: flex;
+  flex-direction: column;
+  margin-left: 95px;
+  margin-bottom: 30px;
+  /*   height: 80px; */
+  border: none;
+  border-radius: 100px;
+  padding: 30px 60px 30px 60px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-wrap: normal;
+}
+.downloadBtn {
+  font-size: 18px;
+  color: #404fed;
+}
+
+.openDiscordBtn {
+  font-size: 18px;
+  color: white;
+  background-color: rgb(39, 39, 39);
+}
+
+.buttonContainer img {
+  height: 500px;
 }
