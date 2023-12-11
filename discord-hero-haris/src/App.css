@@ -5,8 +5,11 @@ body {
   margin: 0;
 }
 
+body {
+  overflow-y: hidden;
+}
 img {
-  height: 50px;
+  height: 30px;
 }
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif; */
@@ -16,49 +19,59 @@ h1 {
   font-family: "Poppins", sans-serif;
   padding-left: 95px;
   font-size: 90px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 p {
   color: white;
   font-family: "Roboto", sans-serif;
 }
 
+.App {
+  overflow-y: hidden;
+}
 .Navbar {
-  padding: 40px 80px 60px 80px;
+  padding: 20px 40px 20px 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .mainText {
-  width: 900px;
+  width: 600px;
   line-height: 80px;
 }
 
 .subText {
-  width: 950px;
+  width: 650px;
 }
 .subText p {
-  font-size: 30px;
+  font-size: 20px;
   padding-left: 95px;
-  margin-bottom: 100px;
 }
 
 button {
-  display: flex;
-  flex-direction: column;
   margin-left: 95px;
   margin-bottom: 30px;
   /*   height: 80px; */
   border: none;
   border-radius: 100px;
-  padding: 30px 60px 30px 60px;
+  text-align: center;
+  padding: 20px 40px 20px 40px;
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
 }
 
 .buttonContainer {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
   justify-content: space-between;
-  overflow-wrap: normal;
 }
 .downloadBtn {
   font-size: 18px;
@@ -72,5 +85,9 @@ button {
 }
 
 .buttonContainer img {
-  height: 500px;
+  height: 550px;
+}
+
+.downloadBtn {
+  width: 300px;
 }
